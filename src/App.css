@@ -16,6 +16,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    background-image: url('./assets/nature-landscape-with-black-sand-beach.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .preloading-image {
     width: 10%;

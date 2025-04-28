@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";    // <-- Only Link is needed now
-import icon from './assets/ChatGPT Image Apr 28, 2025, 11_25_37 PM.png';
-import landscape from './assets/beautiful-mountains-landscape.jpg';
-import daisy from './assets/nature-beauty-colors-meadow-daisy-blossoms-generated-by-ai.jpg';
-import nature from './assets/nature-mountain-displays-radiant-colors-sunset-generative-ai.jpg';
-import forest from './assets/spooky-old-forest-abandoned-window-reflects-spooky-sunset-water-generated-by-artificial-intelligence.jpg';
+import icon from './assets/ChatGPT Image Apr 28, 2025, 11_25_37 PM.webp';
+import landscape from './assets/beautiful-mountains-landscape.webp';
+import daisy from './assets/nature-beauty-colors-meadow-daisy-blossoms-generated-by-ai.webp';
+import nature from './assets/nature-mountain-displays-radiant-colors-sunset-generative-ai.webp';
+import forest from './assets/spooky-old-forest-abandoned-window-reflects-spooky-sunset-water-generated-by-artificial-intelligence.webp';
 import "./Home.css";
 
 const images = [

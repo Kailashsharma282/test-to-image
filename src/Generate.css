@@ -4,7 +4,7 @@
     overflow-x: hidden;
     overflow-y: hidden;
     position: absolute;
-    background-image: url('./assets/neon-hologram-tiger.jpg');
+    background-image: url('./assets/neon-hologram-tiger.webp');
     background-size: cover;
     background-repeat: no-repeat;
 }
