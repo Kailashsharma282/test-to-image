@@ -119,8 +119,8 @@
   }
 
   @media (max-width: 600px) {
-    .loading-container {
-      width: 70vw;
+    .Generate-loading {
+      width: 60vw;
     }
     .Generate-Body-1, .Generate-Body-2 {
       overflow-y: scroll;
