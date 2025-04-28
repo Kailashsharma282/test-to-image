@@ -21,3 +21,8 @@
     width: 10%;
     height: auto;
 }
+@media (max-width: 600px) {
+    .App-body {
+        overflow-y: scroll;
+    }
+}

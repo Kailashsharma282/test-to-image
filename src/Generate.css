@@ -119,6 +119,12 @@
   }
 
   @media (max-width: 600px) {
+    .loading-container {
+      width: 70vw;
+    }
+    .Generate-Body-1, .Generate-Body-2 {
+      overflow-y: scroll;
+    }
     .Generate-input {
       width: 70vw;
       margin-top: 5vh;

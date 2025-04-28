@@ -97,7 +97,9 @@
 }
 
 @media (max-width: 600px) {
-    
+    .Home-Body, .Home-Body-2 {
+        overflow-y: scroll;
+    }
     .Home-contents {
         margin-top: 8vh;
         display: flex;
