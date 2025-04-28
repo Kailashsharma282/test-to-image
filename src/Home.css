@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+.Home-Body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    background-image: url('./assets/futuristic-half-robot-tiger-nature.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Home-Body-2 {
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.Home-heading {
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 60px;
+    color: #FF6A00;
+    font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.Home-contents {
+    width: 100%;
+    height: 50vh;
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Home-Generate {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #ff6a00;
+}
+.Home-Box {
+    width: 30vw;
+    height: 40vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Home-icon {
+    width: 2.5vw;
+    height: 5vh;
+}
+
+.Home-Generate:hover {
+    background-color: #e35f01;
+    transition: all 0.2s linear;
+}
+.Home-matter {
+    color: #FF6A00;
+    font-size: 20px;
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.Home-images {
+    width: 33vw;
+    height: 43vh;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.Home-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+  
+.Home-slider img {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+}
