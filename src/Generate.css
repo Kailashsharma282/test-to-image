@@ -117,3 +117,20 @@
     justify-content: center;
     align-items: center;
   }
+
+  @media (max-width: 600px) {
+    .Generate-input {
+      width: 70vw;
+      margin-top: 5vh;
+    }
+    .Generate-submit-button {
+      margin-top: 2vh;
+    }
+    .Generated-Image {
+      width: 70vw;
+      height: 40vh;
+    }
+    .Download-button {
+      margin-top: 35px;
+    }
+  }

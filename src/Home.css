@@ -95,3 +95,29 @@
     height: 100%;
     flex-shrink: 0;
 }
+
+@media (max-width: 600px) {
+    
+    .Home-contents {
+        margin-top: 8vh;
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+    }
+    .Home-Box {
+        width: 80vw;
+        height:70vh;
+    }
+    .Home-Generate {
+        margin-top: 8vh;
+        gap: 3vw;
+        padding: 10px;
+    }
+    .Home-icon {
+        width: 7vw;
+    }
+    .Home-images {
+        margin-top: 8vh;
+        width: 60vw;
+    }
+}
